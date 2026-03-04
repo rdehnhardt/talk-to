@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "talk-to": {
+      "name": "Talk To",
+      "description": "Talk to specialized experts for any project",
+      "path": "."
+    }
+  }
+}
