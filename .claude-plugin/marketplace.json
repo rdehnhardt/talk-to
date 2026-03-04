@@ -1,9 +1,14 @@
 {
-  "plugins": {
-    "talk-to": {
-      "name": "Talk To",
-      "description": "Talk to specialized experts for any project",
+  "name": "talk-to",
+  "owner": {
+    "name": "Renato Dehnhardt",
+    "url": "https://github.com/rdehnhardt"
+  },
+  "plugins": [
+    {
+      "name": "talk-to",
+      "description": "Talk to specialized experts: Analyst, Architect, DBA, Designer, DevOps, Financial, Marketing, PM, and Technical. Works with any project.",
       "path": "."
     }
-  }
+  ]
 }
