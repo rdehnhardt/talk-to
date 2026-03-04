@@ -1,21 +1,13 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "talk-to-marketplace",
-  "description": "Talk to specialized experts for any project — Analyst, Architect, DBA, Designer, DevOps, Financial, Marketing, PM, and Technical.",
   "owner": {
-    "name": "Renato Dehnhardt",
-    "email": "rdehnhardt@gmail.com"
+    "name": "Renato Dehnhardt"
   },
   "plugins": [
     {
       "name": "talk-to",
-      "source": ".",
-      "description": "Talk to specialized experts: Analyst, Architect, DBA, Designer, DevOps, Financial, Marketing, PM, and Technical. Works with any project — context comes from folder files, expertise comes from skills.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Renato Dehnhardt"
-      },
-      "category": "productivity"
+      "source": "./plugin",
+      "description": "Talk to specialized experts: Analyst, Architect, DBA, Designer, DevOps, Financial, Marketing, PM, and Technical."
     }
   ]
 }
